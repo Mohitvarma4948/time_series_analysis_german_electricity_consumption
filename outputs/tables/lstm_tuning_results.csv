@@ -1,0 +1,2 @@
+RMSE,MAE,MAPE,sMAPE,MASE,Model,lookback_hours,validation_design,shuffle
+1086.449676715293,816.9043245262862,1.5084853170816357,1.5072844718267149,0.3283841244777565,LSTM,168,chronological final 10% of training sequences,False

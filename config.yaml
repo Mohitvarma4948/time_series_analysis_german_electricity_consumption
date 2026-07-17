@@ -1,0 +1,39 @@
+project:
+  name: german_electricity_load_forecasting
+  seed: 42
+
+paths:
+  root: .
+  raw_data: data/raw
+  processed_data: data/processed
+  outputs: outputs
+  figures: outputs/figures
+  tables: outputs/tables
+  logs: outputs/logs
+  models: models
+  report: report
+
+settings:
+  start_date: '2015-01-01'
+  weekly_frequency: 'W-SUN'
+  test_years: 2
+  seasonal_period: 52
+  random_seed: 42
+  sarima_p: [0, 1, 2, 3, 4, 5, 6]
+  sarima_d: [0, 1, 2]
+  sarima_q: [0, 1, 2, 3, 4, 5, 6]
+  sarima_seasonal_p: [0, 1]
+  sarima_seasonal_d: [0, 1]
+  sarima_seasonal_q: [0, 1]
+  feature_lags: [1, 2, 3, 4, 8, 12, 26, 52]
+  temperature_lags: [1, 2, 4, 8, 52]
+  load_rolling_windows: [4, 8, 13, 26, 52]
+  temperature_rolling_windows: [4, 8, 13, 26]
+  lstm_lookback: 168
+  lstm_horizon: 1
+  lstm_units: [64]
+  lstm_dropout: [0.2]
+  lstm_batch_sizes: [32, 64]
+  lstm_learning_rates: [0.001, 0.0005]
+  lstm_epochs: 10
+  lstm_patience: 3

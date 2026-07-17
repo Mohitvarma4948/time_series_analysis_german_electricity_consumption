@@ -1,0 +1,11 @@
+pandas
+numpy>=1.26,<2.0
+matplotlib
+scipy>=1.13,<1.14
+statsmodels>=0.14,<0.15
+scikit-learn
+tensorflow-cpu>=2.21,<2.22
+holidays
+pyyaml
+joblib
+pytest

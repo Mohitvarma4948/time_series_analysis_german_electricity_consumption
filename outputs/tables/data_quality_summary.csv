@@ -1,0 +1,6 @@
+step,details
+load_column_selection,Used DE_load_actual_entsoe_transparency as German load series
+date_filter,Retained timestamps from 2015-01-01 onward
+timestamp_sort,Sorted by utc_timestamp
+resample,Reindexed to hourly frequency
+gap_handling,Interpolated only short gaps; long gaps left as NaN

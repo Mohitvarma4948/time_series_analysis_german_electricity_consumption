@@ -1,0 +1,10 @@
+metric,value
+initialization_burn_in,60.0
+diagnostic_residual_count,136.0
+residual_mean,-0.7258216040318075
+residual_std,1660.8677764081208
+ljung_box_lag,52.0
+ljung_box_stat,48.04407791756463
+ljung_box_p_value,0.6301889281280695
+jarque_bera_stat,26.388495398898264
+jarque_bera_p_value,1.8612770878972369e-06

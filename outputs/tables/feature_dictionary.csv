@@ -1,0 +1,40 @@
+feature,description,known_at_forecast_origin
+load_mw,Weekly load,known
+temperature_2m_mean,Weekly mean temperature,known
+temperature_2m_min,Weekly min temperature,known
+temperature_2m_max,Weekly max temperature,known
+week_of_year,Week of year,known
+month,Month,known
+quarter,Quarter,known
+year,Year,known
+sin_week,Sin weekly seasonal,known
+cos_week,Cos weekly seasonal,known
+holiday_count,Holiday count,known
+has_holiday,Holiday indicator,known
+load_lag_1,Load lag 1 weeks,known
+load_lag_2,Load lag 2 weeks,known
+load_lag_3,Load lag 3 weeks,known
+load_lag_4,Load lag 4 weeks,known
+load_lag_8,Load lag 8 weeks,known
+load_lag_12,Load lag 12 weeks,known
+load_lag_26,Load lag 26 weeks,known
+load_lag_52,Load lag 52 weeks,known
+temp_lag_1,Temperature lag 1 weeks,known
+temp_lag_2,Temperature lag 2 weeks,known
+temp_lag_4,Temperature lag 4 weeks,known
+temp_lag_8,Temperature lag 8 weeks,known
+temp_lag_52,Temperature lag 52 weeks,known
+load_roll_mean_4,Load rolling mean 4 weeks,known
+load_roll_std_4,Load rolling mean 8 weeks,known
+load_roll_mean_8,Load rolling mean 13 weeks,known
+load_roll_std_8,Load rolling mean 26 weeks,known
+load_roll_mean_13,Load rolling mean 52 weeks,known
+load_roll_std_13,Load rolling std 4 weeks,known
+load_roll_mean_26,Load rolling std 8 weeks,known
+load_roll_std_26,Load rolling std 13 weeks,known
+load_roll_mean_52,Load rolling std 26 weeks,known
+load_roll_std_52,Load rolling std 52 weeks,known
+temp_roll_mean_4,Temperature rolling mean 4 weeks,known
+temp_roll_mean_8,Temperature rolling mean 8 weeks,known
+temp_roll_mean_13,Temperature rolling mean 13 weeks,known
+temp_roll_mean_26,Temperature rolling mean 26 weeks,known
